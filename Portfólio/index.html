@@ -1,0 +1,190 @@
+<!-- Início do documento HTML -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Define o conjunto de caracteres usados no documento -->
+    <meta charset="UTF-8">
+    <!-- Define a versão mínima do Internet Explorer compatível -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Define a largura da viewport e o fator de escala inicial -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define uma descrição do conteúdo do documento -->
+    <meta name="description"
+        content="Desenvolvedor Web com experiência em JavaScript, Bootstrap, Node.js, Python, Flask, MySQL, AWS e mais. Ofereço desenvolvimento de aplicativos web e websites personalizados, consultoria em tecnologia da informação e soluções de segurança da informação.">
+    <!-- Define palavras-chave para o mecanismo de busca do Google -->
+    <meta name="keywords"
+        content="Desenvolvedor, Web, JavaScript, Bootstrap, Node.js, Python, Flask, MySQL, AWS, aplicativos web, websites, consultoria em TI, segurança da informação, SEO">
+    <!-- Define o autor do documento -->
+    <meta name="author" content="Lucas Matheus da Cruz">
+    <!-- Define se os robôs de busca devem ou não indexar e seguir os links -->
+    <meta name="robots" content="index, follow">
+    <!-- Inclui um script com informações estruturadas em JSON-LD -->
+    <script type="application/ld+json" src="schema.json"></script>
+    <!-- Define o título da página -->
+    <title>Portfólio - Lucas Matheus da Cruz</title>
+    <!-- Define o ícone da página -->
+    <link rel="icon" type="image/svg+xml"
+        href="https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/fotoperfil.svg">
+    <!-- Inclui uma folha de estilo normalizadora de estilos CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Estabelece uma conexão prévia com o servidor de fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Estabelece uma conexão prévia com o servidor de fontes do Google Fonts e especifica que ele deve ser usado em todos os tipos de conteúdo -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Inclui uma folha de estilo global para a página -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- Inclui uma folha de estilo para o cabeçalho -->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <!-- Inclui uma folha de estilo para um acordeão de informações -->
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <!-- Link para o arquivo de estilo languages.css -->
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <!-- Link para o arquivo de estilo portfolio.css -->
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <!-- Link para o arquivo de estilo services.css -->
+    <link rel="stylesheet" href="assets/css/services.css">
+    <!-- Link para o arquivo de estilo skills.css -->
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <!-- Link para o arquivo de estilo footer.css -->
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+    <main class="main"> <!-- Elemento principal da página -->
+
+        <header class="header"> <!-- Cabeçalho da página -->
+            <img src="assets/img/photo.png" alt="Foto de Lucas Matheus da Cruz" class="photo" id="profile.photo">
+            <!-- Imagem do perfil -->
+
+            <h1 class="title"> <!-- Título do cabeçalho -->
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span> <!-- Nome do perfil -->
+            </h1>
+
+            <div class="information"> <!-- Informações do perfil -->
+                <p class="job" id="profile.job">Carregando...</p> <!-- Cargo do perfil -->
+                <p class="location" id="profile.location">Carregando...</p> <!-- Localização do perfil -->
+                <p class="phone">
+                    <a href="tel:(42) 9 9957-5533" id="profile.phone">Carregando...</a> <!-- Telefone do perfil -->
+                </p>
+                <p class="email">
+                    <a href="mailto:contato@lucascruzdev.com.br" id="profile.email">carregando@mail.com</a>
+                    <!-- E-mail do perfil -->
+                </p>
+
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <!-- Botão que aciona o acordeon -->
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <!-- Conteúdo do acordeon -->
+            <div class="content">
+                <div class="skills">
+
+                    <!-- Seção de ferramentas -->
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            <!-- Os itens da lista de ferramentas são gerados dinamicamente -->
+                        </ul>
+                    </section>
+
+                    <!-- Seção de habilidades pessoais -->
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <!-- Os itens da lista de habilidades pessoais são gerados dinamicamente -->
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <!-- Contém a lista de idiomas do perfil -->
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li> <!-- Mostra a mensagem "Carregando..." enquanto o conteúdo é carregado -->
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <!-- Contém a lista de projetos do perfil -->
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Serviços</h2>
+            </button>
+
+            <!-- Contém a lista de serviços oferecidos pelo perfil -->
+            <div class="content services_wrapper">
+                <ul class="services" id="profile.services">
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <!--Div com links para redes sociais-->
+            <div class="social-links">
+
+                <a href="https://wa.me/+5542999575533" target="_blank">
+                    <img src="https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/assets/img/icons/whats.png"
+                        alt="Ícone do WhatsApp">
+                </a>
+
+                <a href="https://www.linkedin.com/in/lucasmatheuscruz" target="_blank">
+                    <img src="https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/assets/img/icons/linkedin2.svg"
+                        alt="Ícone do LinkedIn">
+                </a>
+
+                <a href="https://github.com/LucasMatheusDaCruz" target="_blank">
+                    <img src="https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/assets/img/icons/github.svg"
+                        alt="Ícone do GitHub">
+                </a>
+            </div>
+
+            <!--Div com texto de rodapé-->
+            <div class="footer-bottom">
+                <p class="copy">&copy; 2023 Lucas Matheus da Cruz</p>
+            </div>
+
+        </footer>
+    </main>
+
+    <!-- Importa o arquivo "acordeon.js" para implementação da funcionalidade de acordeon -->
+    <script src="assets/js/acordeon.js"></script>
+
+    <!-- Importa o arquivo "api.js" para lidar com chamadas de API -->
+    <script src="assets/js/api.js"></script>
+
+    <!-- Importa o arquivo "main.js" para implementação das principais funcionalidades da aplicação -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

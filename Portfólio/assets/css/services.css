@@ -1,0 +1,23 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 800px; /* define a largura máxima */
+  }
+  
+  .services li {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc; /* adiciona uma linha como separador */
+  }
+  
+  .services li:last-child {
+    border-bottom: none; /* remove a linha do último item */
+  }
+  
+  .services__wrapper {
+    display: flex;
+    justify-content: center; /* centraliza o bloco de serviços */
+  }
+  

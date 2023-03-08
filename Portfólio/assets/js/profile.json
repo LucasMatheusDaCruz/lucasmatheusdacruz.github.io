@@ -1,0 +1,117 @@
+{
+  "name": "Lucas Matheus da Cruz",
+  "photo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/Imp/Foto%20Perfil.png",
+  "job": "Desenvolvedor Web",
+  "location": "Guarapuava - PR",
+  "phone": "(42) 99957-5533",
+  "email": "contato@lucascruzdev.com.br",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/Imp/js.svg",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+      },
+      {
+        "name": "Bootstrap",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/bootstrap.svg",
+        "url": "https://getbootstrap.com/"
+      },
+      {
+        "name": "Node.js",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/nodejs.svg",
+        "url": "https://nodejs.org/en/"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/python.svg",
+        "url": "https://www.python.org/"
+      },
+      {
+        "name": "Flask",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/flask.svg",
+        "url": "https://flask.palletsprojects.com/en/2.1.x/"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/mysql.svg",
+        "url": "https://www.mysql.com/"
+      },
+      {
+        "name": "AWS",
+        "logo": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/data/aws.svg",
+        "url": "https://aws.amazon.com/pt/"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (técnico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Portfólio HTML/CSS/JS hospedado na AWS EC2 com DNS Route 53, usando servidor web Apache.",
+      "url": "http://lucascruzdev.com.br",
+      "github": true
+    },
+    {
+      "name": "Lucasmon Pokedex - Uma aplicação web para buscar informações de Pokemons através da API PokeAPI.",
+      "url": "https://github.com/LucasMatheusDaCruz/Lucasmon",
+      "github": true
+    }
+  ],
+  "services": [
+    {
+    "name": "Desenvolvimento de aplicativos web",
+    "description": "Ofereço desenvolvimento de aplicativos web de alta qualidade, com design atraente e funcionalidades avançadas utilizando as tecnologias mais recentes."
+    },
+    {
+    "name": "Desenvolvimento de websites",
+    "description": "Ofereço desenvolvimento de websites personalizados, com design moderno e responsivo para garantir uma ótima experiência do usuário."
+    },
+    {
+    "name": "Consultoria em tecnologia",
+    "description": "Ofereço consultoria em tecnologia da informação para ajudá-lo a entender como as soluções de TI podem atender às suas necessidades de negócios."
+    },
+    {
+    "name": "Segurança da informação",
+    "description": "Ofereço soluções de segurança da informação para proteger seus dados sensíveis e garantir a privacidade de suas informações."
+    },
+    {
+    "name": "Otimização de sites para motores de busca (SEO)",
+    "description": "Ajudo a otimizar seu site para que ele seja facilmente encontrado pelos motores de busca, melhorando sua visibilidade e aumentando o tráfego em seu site."
+    },
+    {
+    "name": "AWS Cloud Services",
+    "description": "Ofereço soluções em nuvem da Amazon Web Services (AWS) para ajudá-lo a migrar, escalar e gerenciar seus aplicativos e serviços com facilidade e eficiência."
+    }
+    ],
+  "footer": [
+    {
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/lucasmatheuscruz",
+          "icon": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/assets/img/icons/linkedin2.svg"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/LucasMatheusDaCruz",
+          "icon": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/main/Images/assets/img/icons/github.svg"
+        },
+        {
+          "name": "WhatsApp",
+          "url": "https://wa.me/5542999575533",
+          "icon": "https://raw.githubusercontent.com/LucasMatheusDaCruz/images/8126376fa864dd5498336f59da094f67c57e497b/Images/assets/img/icons/WhatsApp.svg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lucas Matheus da Cruz",
+    "image": "https://avatars.githubusercontent.com/u/124472083?s=400&u=497c0f5a8db3fe70eaddb32d2a4a2f496d95343c&v=4",
+    "jobTitle": "Desenvolvedor front-end",
+    "url": "http://lucascruzdev.com.br",
+    "sameAs": [
+      "https://github.com/LucasMatheusDaCruz",
+      "https://www.linkedin.com/in/lucasmatheuscruz/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Guarapuava",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    },
+<<<<<<< HEAD
+    "email": "contato@lucascruzdev.com.br",
+=======
+    "email": "dacruzlucasp@gmail.com",
+>>>>>>> 9be8d3b (Fazendo upload dos arquivos para o github)
+    "telephone": "+5542999575533",
+    "description": "Desenvolvedor front-end com experiência em tecnologias como JavaScript, Node.js, Bootstrap, Python e Flask.",
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Lucas Cruz Dev",
+      "url": "http://lucascruzdev.com.br"
+    },
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "name": "Desenvolvimento de aplicativos web",
+        "description": "Ofereço desenvolvimento de aplicativos web de alta qualidade, com design atraente e funcionalidades avançadas utilizando as tecnologias mais recentes."
+      },
+      {
+        "@type": "Offer",
+        "name": "Desenvolvimento de websites",
+        "description": "Ofereço desenvolvimento de websites personalizados, com design moderno e responsivo para garantir uma ótima experiência do usuário."
+      },
+      {
+        "@type": "Offer",
+        "name": "Consultoria em tecnologia",
+        "description": "Ofereço consultoria em tecnologia da informação para ajudá-lo a entender como as soluções de TI podem atender às suas necessidades de negócios."
+      },
+      {
+        "@type": "Offer",
+        "name": "Integração de aplicativos e sistemas",
+        "description": "Ajudo na integração de aplicativos e sistemas, garantindo que as informações fluam de maneira eficiente e segura entre diferentes plataformas."
+      },
+      {
+        "@type": "Offer",
+        "name": "Segurança da informação",
+        "description": "Ofereço soluções de segurança da informação para proteger seus dados sensíveis e garantir a privacidade de suas informações."
+      },
+      {
+        "@type": "Offer",
+        "name": "Otimização de sites para motores de busca (SEO)",
+        "description": "Ajudo a otimizar seu site para que ele seja facilmente encontrado pelos motores de busca, melhorando sua visibilidade e aumentando o tráfego em seu site."
+      }
+    ]
+  }
+  
